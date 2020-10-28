@@ -81,6 +81,12 @@
 			<artifactId>core</artifactId>
 			<version>4.3.0</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-web3j-starter</artifactId>
+			<version>3.6.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
