@@ -11,7 +11,7 @@ public class Orchestrator {
     public void init() {
         System.out.println("Connecting to Ethereum ...");
         Web3j web3 = Web3j.build(new HttpService("http://localhost:8545"));
-        System.out.println("Successfuly connected to Ethereum");
+        System.out.println("Connecting to Ethereum Server ...");
 
         try {
             // web3_clientVersion returns the current client version.
