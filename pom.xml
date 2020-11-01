@@ -77,15 +77,25 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.web3j</groupId>
-			<artifactId>core</artifactId>
-			<version>4.3.0</version>
-		</dependency>
-
-		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-web3j-starter</artifactId>
 			<version>3.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.web3j</groupId>
+			<artifactId>core</artifactId>
+			<version>4.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.web3j</groupId>
+			<artifactId>web3j-evm</artifactId>
+			<version>4.7.0</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.web3j</groupId>
+			<artifactId>web3j-unit</artifactId>
+			<version>4.7.0</version>
 		</dependency>
 	</dependencies>
 
