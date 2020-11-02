@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @EVMTest
 public class OrchestratorTest {
+
   @Test
   void testInit() {
     new Orchestrator().init();
