@@ -101,6 +101,12 @@
 			<artifactId>okhttp</artifactId>
 			<version>4.3.1</version>
 		</dependency>
+		<dependency>
+			<groupId>com.beust</groupId>
+			<artifactId>klaxon</artifactId>
+			<version>5.4</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
